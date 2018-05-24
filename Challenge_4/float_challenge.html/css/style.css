@@ -1,0 +1,70 @@
+/*Styling my container*/
+.container{
+
+}
+
+.one{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  float: left;
+  margin-left: 5%;
+}
+
+.two{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  float: left;
+  margin-left: 5%;
+}
+
+.three{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  float: left;
+  margin-left: 5%;
+}
+
+.four{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  float: left;
+  margin-left: 5%;
+}
+
+.one:hover{
+  background-color: green;
+}
+
+.two:hover{
+  background-color: maroon;
+}
+
+.three:hover{
+  background-color: goldenrod;
+}
+
+.four:hover{
+  background-color: black;
+}
+
+.one:active{
+  background-color: #255957;
+}
+
+.two:active{
+  background-color: #437C90;
+}
+
+.three:active{
+  background-color: #EEEBD3;
+  width: 600px;
+}
+
+.four:active{
+  background-color: #A98743;
+  width: 50px;
+}

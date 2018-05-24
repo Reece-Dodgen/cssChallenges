@@ -1,0 +1,29 @@
+/*body{
+  background-color: goldenrod;
+}*/
+/*Styling my speech-bubble*/
+
+#speech-bubble {
+	position: relative;
+	background: maroon;
+  color: white;
+	border-radius: .4em;
+  width: 200px;
+  padding: 50px 20px;
+  margin: 0;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.arrow{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: maroon;
+	border-left: 0;
+	margin-top: -20px;
+	margin-left: -20px;
+}

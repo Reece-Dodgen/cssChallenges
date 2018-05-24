@@ -1,0 +1,66 @@
+/*Applying selectors*/
+/*type selectors*/
+
+body{
+  background-color: #558B6E;
+  text-align:center;
+  color: #3B1F2B;
+
+}
+
+h1{
+  color: #B88C9E;
+  text-align: center;
+  font-size: 50px;
+}
+/*class selectors*/
+
+.para{
+  color: #F1C8DB;
+  font-size: 25px;
+  padding: 50px;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+/*Adding sticky nav bar*/
+.footer{
+      z-index: 5;position: sticky;
+      overflow: hidden;
+      bottom: 0;
+      background-color: #E1AA7D;
+      color: black;
+    }
+
+/*Styling placeholders*/
+::placeholder{
+  color: red;
+}
+
+/*styling subscribe button*/
+.button {
+    background-color: #009FB7; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*Styling the empty container using CSS*/
+.containers{
+  color: black;
+  padding: 50px;
+  border: none;
+  font-size: 14px;
+}

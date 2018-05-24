@@ -1,0 +1,30 @@
+body{
+  margin: 0 0 0 0;
+  border: solid 10px black;
+  width: 1000px;
+  height: 700px;
+}
+.container {
+  z-index: -1;
+  width: 200px;
+  position: absolute;
+  top: 40px;
+  left: -40px;
+  text-align: center;
+  line-height: 40px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.ribbon {
+  top: 25px;
+  right:-50px;
+  left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(0deg);
+  background-color: goldenrod;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}

@@ -1,0 +1,28 @@
+/*Styles applied*/
+body{
+  background-color: green;
+}
+
+h1{
+  color: yellow;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color: blue;
+}
+
+h4{
+  color: white;
+}
+
+h5{
+  color: blue;
+}
+
+p{
+  font-family: fantasy;
+}

@@ -1,0 +1,22 @@
+/*adding fonts*/
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans');
+
+
+body{
+  background-color: #C1666B;
+}
+.para_1{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: skyblue;
+  padding: 50px;
+}
+
+.para_2{
+  font-family: 'Gamja Flower', cursive;
+  font-size: 40px;
+  font-style: bold;
+  color: #590004;
+  padding: 50px;
+}
